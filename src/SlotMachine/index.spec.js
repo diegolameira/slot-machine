@@ -1,7 +1,7 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
 
-import SlotMachine from './index';
+import SlotMachine, { Wheel } from './index';
 
 describe('SlotMachine', () => {
   const component = TestRenderer.create(<SlotMachine />);
@@ -11,7 +11,14 @@ describe('SlotMachine', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('should have 3 wheels', () => {});
+  it('should have 3 (or given) wheels', () => {
+    let wheels = component.root.findAllByType(Wheel);
+    expect(wheels.length).toBe(3);
+    component.update(<SlotMachine wheelsCount={2} />);
+    wheels = component.root.findAllByType(Wheel);
+    expect(wheels.length).toBe(2);
+  });
+
   it('should have a start button', () => {});
   it('should have a stop button', () => {});
 

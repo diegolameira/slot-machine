@@ -18,11 +18,11 @@ Object {
         "_debugOwner": [Circular],
         "_debugSource": Object {
           "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
-          "lineNumber": 15,
+          "lineNumber": 29,
         },
         "alternate": null,
         "child": FiberNode {
-          "_debugID": 6,
+          "_debugID": 7,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": null,
@@ -145,11 +145,11 @@ Object {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
-            "lineNumber": 16,
+            "lineNumber": 30,
           },
           "alternate": null,
           "child": FiberNode {
-            "_debugID": 7,
+            "_debugID": 8,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": null,
             "_debugSource": null,
@@ -201,7 +201,544 @@ Object {
           },
           "ref": null,
           "return": [Circular],
-          "sibling": null,
+          "sibling": FiberNode {
+            "_debugID": 6,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 9,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                "lineNumber": 32,
+              },
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 12,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                  "lineNumber": 39,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 13,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": "Wheel",
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": "Wheel",
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": Object {
+                    "isHidden": false,
+                    "tag": "TEXT",
+                    "text": "Wheel",
+                  },
+                  "tag": 6,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "elementType": "h2",
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Wheel",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Wheel",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "Wheel",
+                  },
+                  "rootContainerInstance": Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Slot Machine",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Slot Machine",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h1",
+                      },
+                      [Circular],
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                    ],
+                    "createNodeMock": [Function],
+                    "tag": "CONTAINER",
+                  },
+                  "tag": "INSTANCE",
+                  "type": "h2",
+                },
+                "tag": 5,
+                "type": "h2",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 1,
+              "elementType": [Function],
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": "0",
+              "lastEffect": null,
+              "memoizedProps": Object {},
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {},
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 10,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                  "lineNumber": 32,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 14,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                    "lineNumber": 39,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 15,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "Wheel",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "Wheel",
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                    "tag": 6,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "elementType": "h2",
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Wheel",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Wheel",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": Object {
+                    "children": Array [
+                      Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "Wheel",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": "Wheel",
+                    },
+                    "rootContainerInstance": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Slot Machine",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Slot Machine",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h1",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                        [Circular],
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                      ],
+                      "createNodeMock": [Function],
+                      "tag": "CONTAINER",
+                    },
+                    "tag": "INSTANCE",
+                    "type": "h2",
+                  },
+                  "tag": 5,
+                  "type": "h2",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 1,
+                "elementType": [Function],
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": "1",
+                "lastEffect": null,
+                "memoizedProps": Object {},
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {},
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 11,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                    "lineNumber": 32,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 16,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                      "lineNumber": 39,
+                    },
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 17,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "elementType": null,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "Wheel",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "Wheel",
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "Wheel",
+                      },
+                      "tag": 6,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "elementType": "h2",
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Wheel",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Wheel",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "Wheel",
+                      },
+                      "rootContainerInstance": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Slot Machine",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Slot Machine",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h1",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                          [Circular],
+                        ],
+                        "createNodeMock": [Function],
+                        "tag": "CONTAINER",
+                      },
+                      "tag": "INSTANCE",
+                      "type": "h2",
+                    },
+                    "tag": 5,
+                    "type": "h2",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 1,
+                  "elementType": [Function],
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 2,
+                  "key": "2",
+                  "lastEffect": null,
+                  "memoizedProps": Object {},
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {},
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": null,
+                  "tag": 0,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "stateNode": null,
+                "tag": 0,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "stateNode": null,
+              "tag": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 2,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Array [
+              <Wheel />,
+              <Wheel />,
+              <Wheel />,
+            ],
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Array [
+              <Wheel />,
+              <Wheel />,
+              <Wheel />,
+            ],
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": null,
+            "tag": 7,
+            "type": null,
+            "updateQueue": null,
+          },
           "stateNode": Object {
             "children": Array [
               Object {
@@ -217,6 +754,54 @@ Object {
             "rootContainerInstance": Object {
               "children": Array [
                 [Circular],
+                Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "Wheel",
+                  },
+                  "rootContainerInstance": [Circular],
+                  "tag": "INSTANCE",
+                  "type": "h2",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "Wheel",
+                  },
+                  "rootContainerInstance": [Circular],
+                  "tag": "INSTANCE",
+                  "type": "h2",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "Wheel",
+                  },
+                  "rootContainerInstance": [Circular],
+                  "tag": "INSTANCE",
+                  "type": "h2",
+                },
               ],
               "createNodeMock": [Function],
               "tag": "CONTAINER",
@@ -340,11 +925,21 @@ body{font-family:sans-serif;text-align:center;}
       "index": 0,
       "key": null,
       "lastEffect": null,
-      "memoizedProps": Object {},
-      "memoizedState": null,
+      "memoizedProps": Object {
+        "wheelsCount": 3,
+      },
+      "memoizedState": Object {
+        "wheels": Array [
+          undefined,
+          undefined,
+          undefined,
+        ],
+      },
       "mode": 0,
       "nextEffect": null,
-      "pendingProps": Object {},
+      "pendingProps": Object {
+        "wheelsCount": 3,
+      },
       "ref": null,
       "return": FiberNode {
         "_debugID": 1,
@@ -394,6 +989,54 @@ body{font-family:sans-serif;text-align:center;}
                   "tag": "INSTANCE",
                   "type": "h1",
                 },
+                Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "Wheel",
+                  },
+                  "rootContainerInstance": [Circular],
+                  "tag": "INSTANCE",
+                  "type": "h2",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "Wheel",
+                  },
+                  "rootContainerInstance": [Circular],
+                  "tag": "INSTANCE",
+                  "type": "h2",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "Wheel",
+                  },
+                  "rootContainerInstance": [Circular],
+                  "tag": "INSTANCE",
+                  "type": "h2",
+                },
               ],
               "createNodeMock": [Function],
               "tag": "CONTAINER",
@@ -431,7 +1074,9 @@ body{font-family:sans-serif;text-align:center;}
               "next": null,
               "nextEffect": null,
               "payload": Object {
-                "element": <SlotMachine />,
+                "element": <SlotMachine
+                  wheelsCount={3}
+                />,
               },
               "tag": 0,
             },
@@ -444,7 +1089,9 @@ body{font-family:sans-serif;text-align:center;}
               "next": null,
               "nextEffect": null,
               "payload": Object {
-                "element": <SlotMachine />,
+                "element": <SlotMachine
+                  wheelsCount={3}
+                />,
               },
               "tag": 0,
             },
@@ -462,7 +1109,9 @@ body{font-family:sans-serif;text-align:center;}
         "lastEffect": [Circular],
         "memoizedProps": null,
         "memoizedState": Object {
-          "element": <SlotMachine />,
+          "element": <SlotMachine
+            wheelsCount={3}
+          />,
         },
         "mode": 0,
         "nextEffect": null,
@@ -488,6 +1137,54 @@ body{font-family:sans-serif;text-align:center;}
                 "rootContainerInstance": [Circular],
                 "tag": "INSTANCE",
                 "type": "h1",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "isHidden": false,
+                    "tag": "TEXT",
+                    "text": "Wheel",
+                  },
+                ],
+                "isHidden": false,
+                "props": Object {
+                  "children": "Wheel",
+                },
+                "rootContainerInstance": [Circular],
+                "tag": "INSTANCE",
+                "type": "h2",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "isHidden": false,
+                    "tag": "TEXT",
+                    "text": "Wheel",
+                  },
+                ],
+                "isHidden": false,
+                "props": Object {
+                  "children": "Wheel",
+                },
+                "rootContainerInstance": [Circular],
+                "tag": "INSTANCE",
+                "type": "h2",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "isHidden": false,
+                    "tag": "TEXT",
+                    "text": "Wheel",
+                  },
+                ],
+                "isHidden": false,
+                "props": Object {
+                  "children": "Wheel",
+                },
+                "rootContainerInstance": [Circular],
+                "tag": "INSTANCE",
+                "type": "h2",
               },
             ],
             "createNodeMock": [Function],
@@ -517,7 +1214,9 @@ body{font-family:sans-serif;text-align:center;}
         "type": null,
         "updateQueue": Object {
           "baseState": Object {
-            "element": <SlotMachine />,
+            "element": <SlotMachine
+              wheelsCount={3}
+            />,
           },
           "firstCapturedEffect": null,
           "firstCapturedUpdate": null,
@@ -537,9 +1236,17 @@ body{font-family:sans-serif;text-align:center;}
     },
     "_reactInternalInstance": Object {},
     "context": Object {},
-    "props": Object {},
+    "props": Object {
+      "wheelsCount": 3,
+    },
     "refs": Object {},
-    "state": null,
+    "state": Object {
+      "wheels": Array [
+        undefined,
+        undefined,
+        undefined,
+      ],
+    },
     "updater": Object {
       "enqueueForceUpdate": [Function],
       "enqueueReplaceState": [Function],
@@ -548,7 +1255,9 @@ body{font-family:sans-serif;text-align:center;}
     },
   },
   "nodeType": "component",
-  "props": Object {},
+  "props": Object {
+    "wheelsCount": 3,
+  },
   "rendered": Array [
     Object {
       "instance": GlobalStyleComponent {
@@ -574,11 +1283,21 @@ body{font-family:sans-serif;text-align:center;}
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": Object {},
-            "memoizedState": null,
+            "memoizedProps": Object {
+              "wheelsCount": 3,
+            },
+            "memoizedState": Object {
+              "wheels": Array [
+                undefined,
+                undefined,
+                undefined,
+              ],
+            },
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": Object {},
+            "pendingProps": Object {
+              "wheelsCount": 3,
+            },
             "ref": null,
             "return": FiberNode {
               "_debugID": 1,
@@ -628,6 +1347,54 @@ body{font-family:sans-serif;text-align:center;}
                         "tag": "INSTANCE",
                         "type": "h1",
                       },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
                     ],
                     "createNodeMock": [Function],
                     "tag": "CONTAINER",
@@ -665,7 +1432,9 @@ body{font-family:sans-serif;text-align:center;}
                     "next": null,
                     "nextEffect": null,
                     "payload": Object {
-                      "element": <SlotMachine />,
+                      "element": <SlotMachine
+                        wheelsCount={3}
+                      />,
                     },
                     "tag": 0,
                   },
@@ -678,7 +1447,9 @@ body{font-family:sans-serif;text-align:center;}
                     "next": null,
                     "nextEffect": null,
                     "payload": Object {
-                      "element": <SlotMachine />,
+                      "element": <SlotMachine
+                        wheelsCount={3}
+                      />,
                     },
                     "tag": 0,
                   },
@@ -696,7 +1467,9 @@ body{font-family:sans-serif;text-align:center;}
               "lastEffect": [Circular],
               "memoizedProps": null,
               "memoizedState": Object {
-                "element": <SlotMachine />,
+                "element": <SlotMachine
+                  wheelsCount={3}
+                />,
               },
               "mode": 0,
               "nextEffect": null,
@@ -722,6 +1495,54 @@ body{font-family:sans-serif;text-align:center;}
                       "rootContainerInstance": [Circular],
                       "tag": "INSTANCE",
                       "type": "h1",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "Wheel",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "h2",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "Wheel",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "h2",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "Wheel",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "h2",
                     },
                   ],
                   "createNodeMock": [Function],
@@ -751,7 +1572,9 @@ body{font-family:sans-serif;text-align:center;}
               "type": null,
               "updateQueue": Object {
                 "baseState": Object {
-                  "element": <SlotMachine />,
+                  "element": <SlotMachine
+                    wheelsCount={3}
+                  />,
                 },
                 "firstCapturedEffect": null,
                 "firstCapturedUpdate": null,
@@ -768,9 +1591,17 @@ body{font-family:sans-serif;text-align:center;}
               "_reactInternalFiber": [Circular],
               "_reactInternalInstance": Object {},
               "context": Object {},
-              "props": Object {},
+              "props": Object {
+                "wheelsCount": 3,
+              },
               "refs": Object {},
-              "state": null,
+              "state": Object {
+                "wheels": Array [
+                  undefined,
+                  undefined,
+                  undefined,
+                ],
+              },
               "updater": Object {
                 "enqueueForceUpdate": [Function],
                 "enqueueReplaceState": [Function],
@@ -784,11 +1615,11 @@ body{font-family:sans-serif;text-align:center;}
           },
           "_debugSource": Object {
             "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
-            "lineNumber": 15,
+            "lineNumber": 29,
           },
           "alternate": null,
           "child": FiberNode {
-            "_debugID": 6,
+            "_debugID": 7,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": null,
@@ -923,11 +1754,21 @@ body{font-family:sans-serif;text-align:center;}
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": Object {},
-            "memoizedState": null,
+            "memoizedProps": Object {
+              "wheelsCount": 3,
+            },
+            "memoizedState": Object {
+              "wheels": Array [
+                undefined,
+                undefined,
+                undefined,
+              ],
+            },
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": Object {},
+            "pendingProps": Object {
+              "wheelsCount": 3,
+            },
             "ref": null,
             "return": FiberNode {
               "_debugID": 1,
@@ -977,6 +1818,54 @@ body{font-family:sans-serif;text-align:center;}
                         "tag": "INSTANCE",
                         "type": "h1",
                       },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
                     ],
                     "createNodeMock": [Function],
                     "tag": "CONTAINER",
@@ -1014,7 +1903,9 @@ body{font-family:sans-serif;text-align:center;}
                     "next": null,
                     "nextEffect": null,
                     "payload": Object {
-                      "element": <SlotMachine />,
+                      "element": <SlotMachine
+                        wheelsCount={3}
+                      />,
                     },
                     "tag": 0,
                   },
@@ -1027,7 +1918,9 @@ body{font-family:sans-serif;text-align:center;}
                     "next": null,
                     "nextEffect": null,
                     "payload": Object {
-                      "element": <SlotMachine />,
+                      "element": <SlotMachine
+                        wheelsCount={3}
+                      />,
                     },
                     "tag": 0,
                   },
@@ -1045,7 +1938,9 @@ body{font-family:sans-serif;text-align:center;}
               "lastEffect": [Circular],
               "memoizedProps": null,
               "memoizedState": Object {
-                "element": <SlotMachine />,
+                "element": <SlotMachine
+                  wheelsCount={3}
+                />,
               },
               "mode": 0,
               "nextEffect": null,
@@ -1071,6 +1966,54 @@ body{font-family:sans-serif;text-align:center;}
                       "rootContainerInstance": [Circular],
                       "tag": "INSTANCE",
                       "type": "h1",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "Wheel",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "h2",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "Wheel",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "h2",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "Wheel",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "h2",
                     },
                   ],
                   "createNodeMock": [Function],
@@ -1100,7 +2043,9 @@ body{font-family:sans-serif;text-align:center;}
               "type": null,
               "updateQueue": Object {
                 "baseState": Object {
-                  "element": <SlotMachine />,
+                  "element": <SlotMachine
+                    wheelsCount={3}
+                  />,
                 },
                 "firstCapturedEffect": null,
                 "firstCapturedUpdate": null,
@@ -1117,9 +2062,17 @@ body{font-family:sans-serif;text-align:center;}
               "_reactInternalFiber": [Circular],
               "_reactInternalInstance": Object {},
               "context": Object {},
-              "props": Object {},
+              "props": Object {
+                "wheelsCount": 3,
+              },
               "refs": Object {},
-              "state": null,
+              "state": Object {
+                "wheels": Array [
+                  undefined,
+                  undefined,
+                  undefined,
+                ],
+              },
               "updater": Object {
                 "enqueueForceUpdate": [Function],
                 "enqueueReplaceState": [Function],
@@ -1153,11 +2106,21 @@ body{font-family:sans-serif;text-align:center;}
               "index": 0,
               "key": null,
               "lastEffect": null,
-              "memoizedProps": Object {},
-              "memoizedState": null,
+              "memoizedProps": Object {
+                "wheelsCount": 3,
+              },
+              "memoizedState": Object {
+                "wheels": Array [
+                  undefined,
+                  undefined,
+                  undefined,
+                ],
+              },
               "mode": 0,
               "nextEffect": null,
-              "pendingProps": Object {},
+              "pendingProps": Object {
+                "wheelsCount": 3,
+              },
               "ref": null,
               "return": FiberNode {
                 "_debugID": 1,
@@ -1207,6 +2170,54 @@ body{font-family:sans-serif;text-align:center;}
                           "tag": "INSTANCE",
                           "type": "h1",
                         },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
                       ],
                       "createNodeMock": [Function],
                       "tag": "CONTAINER",
@@ -1244,7 +2255,9 @@ body{font-family:sans-serif;text-align:center;}
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
-                        "element": <SlotMachine />,
+                        "element": <SlotMachine
+                          wheelsCount={3}
+                        />,
                       },
                       "tag": 0,
                     },
@@ -1257,7 +2270,9 @@ body{font-family:sans-serif;text-align:center;}
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
-                        "element": <SlotMachine />,
+                        "element": <SlotMachine
+                          wheelsCount={3}
+                        />,
                       },
                       "tag": 0,
                     },
@@ -1275,7 +2290,9 @@ body{font-family:sans-serif;text-align:center;}
                 "lastEffect": [Circular],
                 "memoizedProps": null,
                 "memoizedState": Object {
-                  "element": <SlotMachine />,
+                  "element": <SlotMachine
+                    wheelsCount={3}
+                  />,
                 },
                 "mode": 0,
                 "nextEffect": null,
@@ -1301,6 +2318,54 @@ body{font-family:sans-serif;text-align:center;}
                         "rootContainerInstance": [Circular],
                         "tag": "INSTANCE",
                         "type": "h1",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
                       },
                     ],
                     "createNodeMock": [Function],
@@ -1330,7 +2395,9 @@ body{font-family:sans-serif;text-align:center;}
                 "type": null,
                 "updateQueue": Object {
                   "baseState": Object {
-                    "element": <SlotMachine />,
+                    "element": <SlotMachine
+                      wheelsCount={3}
+                    />,
                   },
                   "firstCapturedEffect": null,
                   "firstCapturedUpdate": null,
@@ -1347,9 +2414,17 @@ body{font-family:sans-serif;text-align:center;}
                 "_reactInternalFiber": [Circular],
                 "_reactInternalInstance": Object {},
                 "context": Object {},
-                "props": Object {},
+                "props": Object {
+                  "wheelsCount": 3,
+                },
                 "refs": Object {},
-                "state": null,
+                "state": Object {
+                  "wheels": Array [
+                    undefined,
+                    undefined,
+                    undefined,
+                  ],
+                },
                 "updater": Object {
                   "enqueueForceUpdate": [Function],
                   "enqueueReplaceState": [Function],
@@ -1363,11 +2438,11 @@ body{font-family:sans-serif;text-align:center;}
             },
             "_debugSource": Object {
               "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
-              "lineNumber": 16,
+              "lineNumber": 30,
             },
             "alternate": null,
             "child": FiberNode {
-              "_debugID": 7,
+              "_debugID": 8,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": null,
               "_debugSource": null,
@@ -1437,11 +2512,21 @@ body{font-family:sans-serif;text-align:center;}
               "index": 0,
               "key": null,
               "lastEffect": null,
-              "memoizedProps": Object {},
-              "memoizedState": null,
+              "memoizedProps": Object {
+                "wheelsCount": 3,
+              },
+              "memoizedState": Object {
+                "wheels": Array [
+                  undefined,
+                  undefined,
+                  undefined,
+                ],
+              },
               "mode": 0,
               "nextEffect": null,
-              "pendingProps": Object {},
+              "pendingProps": Object {
+                "wheelsCount": 3,
+              },
               "ref": null,
               "return": FiberNode {
                 "_debugID": 1,
@@ -1491,6 +2576,54 @@ body{font-family:sans-serif;text-align:center;}
                           "tag": "INSTANCE",
                           "type": "h1",
                         },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
                       ],
                       "createNodeMock": [Function],
                       "tag": "CONTAINER",
@@ -1528,7 +2661,9 @@ body{font-family:sans-serif;text-align:center;}
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
-                        "element": <SlotMachine />,
+                        "element": <SlotMachine
+                          wheelsCount={3}
+                        />,
                       },
                       "tag": 0,
                     },
@@ -1541,7 +2676,9 @@ body{font-family:sans-serif;text-align:center;}
                       "next": null,
                       "nextEffect": null,
                       "payload": Object {
-                        "element": <SlotMachine />,
+                        "element": <SlotMachine
+                          wheelsCount={3}
+                        />,
                       },
                       "tag": 0,
                     },
@@ -1559,7 +2696,9 @@ body{font-family:sans-serif;text-align:center;}
                 "lastEffect": [Circular],
                 "memoizedProps": null,
                 "memoizedState": Object {
-                  "element": <SlotMachine />,
+                  "element": <SlotMachine
+                    wheelsCount={3}
+                  />,
                 },
                 "mode": 0,
                 "nextEffect": null,
@@ -1585,6 +2724,54 @@ body{font-family:sans-serif;text-align:center;}
                         "rootContainerInstance": [Circular],
                         "tag": "INSTANCE",
                         "type": "h1",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "h2",
                       },
                     ],
                     "createNodeMock": [Function],
@@ -1614,7 +2801,9 @@ body{font-family:sans-serif;text-align:center;}
                 "type": null,
                 "updateQueue": Object {
                   "baseState": Object {
-                    "element": <SlotMachine />,
+                    "element": <SlotMachine
+                      wheelsCount={3}
+                    />,
                   },
                   "firstCapturedEffect": null,
                   "firstCapturedUpdate": null,
@@ -1631,9 +2820,17 @@ body{font-family:sans-serif;text-align:center;}
                 "_reactInternalFiber": [Circular],
                 "_reactInternalInstance": Object {},
                 "context": Object {},
-                "props": Object {},
+                "props": Object {
+                  "wheelsCount": 3,
+                },
                 "refs": Object {},
-                "state": null,
+                "state": Object {
+                  "wheels": Array [
+                    undefined,
+                    undefined,
+                    undefined,
+                  ],
+                },
                 "updater": Object {
                   "enqueueForceUpdate": [Function],
                   "enqueueReplaceState": [Function],
@@ -1645,7 +2842,1936 @@ body{font-family:sans-serif;text-align:center;}
               "type": [Function],
               "updateQueue": null,
             },
-            "sibling": null,
+            "sibling": FiberNode {
+              "_debugID": 6,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 9,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": FiberNode {
+                  "_debugID": 3,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": Object {
+                    "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.spec.js",
+                    "lineNumber": 7,
+                  },
+                  "alternate": null,
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 1,
+                  "elementType": [Function],
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "wheelsCount": 3,
+                  },
+                  "memoizedState": Object {
+                    "wheels": Array [
+                      undefined,
+                      undefined,
+                      undefined,
+                    ],
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "wheelsCount": 3,
+                  },
+                  "ref": null,
+                  "return": FiberNode {
+                    "_debugID": 1,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "alternate": FiberNode {
+                      "_debugID": 1,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "alternate": [Circular],
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "elementType": null,
+                      "expirationTime": 1073741823,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": null,
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": null,
+                      "sibling": null,
+                      "stateNode": Object {
+                        "containerInfo": Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Slot Machine",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Slot Machine",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h1",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Wheel",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Wheel",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h2",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Wheel",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Wheel",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h2",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Wheel",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Wheel",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h2",
+                            },
+                          ],
+                          "createNodeMock": [Function],
+                          "tag": "CONTAINER",
+                        },
+                        "context": Object {},
+                        "current": [Circular],
+                        "didError": false,
+                        "earliestPendingTime": 0,
+                        "earliestSuspendedTime": 0,
+                        "expirationTime": 0,
+                        "finishedWork": null,
+                        "firstBatch": null,
+                        "hydrate": false,
+                        "latestPendingTime": 0,
+                        "latestPingedTime": 0,
+                        "latestSuspendedTime": 0,
+                        "nextExpirationTimeToWorkOn": 0,
+                        "nextScheduledRoot": null,
+                        "pendingChildren": null,
+                        "pendingCommitExpirationTime": 0,
+                        "pendingContext": null,
+                        "pingCache": null,
+                        "timeoutHandle": -1,
+                      },
+                      "tag": 3,
+                      "type": null,
+                      "updateQueue": Object {
+                        "baseState": null,
+                        "firstCapturedEffect": null,
+                        "firstCapturedUpdate": null,
+                        "firstEffect": null,
+                        "firstUpdate": Object {
+                          "callback": null,
+                          "expirationTime": 1073741823,
+                          "next": null,
+                          "nextEffect": null,
+                          "payload": Object {
+                            "element": <SlotMachine
+                              wheelsCount={3}
+                            />,
+                          },
+                          "tag": 0,
+                        },
+                        "lastCapturedEffect": null,
+                        "lastCapturedUpdate": null,
+                        "lastEffect": null,
+                        "lastUpdate": Object {
+                          "callback": null,
+                          "expirationTime": 1073741823,
+                          "next": null,
+                          "nextEffect": null,
+                          "payload": Object {
+                            "element": <SlotMachine
+                              wheelsCount={3}
+                            />,
+                          },
+                          "tag": 0,
+                        },
+                      },
+                    },
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": [Circular],
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": [Circular],
+                    "memoizedProps": null,
+                    "memoizedState": Object {
+                      "element": <SlotMachine
+                        wheelsCount={3}
+                      />,
+                    },
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Slot Machine",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Slot Machine",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h1",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                        ],
+                        "createNodeMock": [Function],
+                        "tag": "CONTAINER",
+                      },
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pingCache": null,
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": Object {
+                        "element": <SlotMachine
+                          wheelsCount={3}
+                        />,
+                      },
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": null,
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": null,
+                    },
+                  },
+                  "sibling": null,
+                  "stateNode": SlotMachine {
+                    "_reactInternalFiber": [Circular],
+                    "_reactInternalInstance": Object {},
+                    "context": Object {},
+                    "props": Object {
+                      "wheelsCount": 3,
+                    },
+                    "refs": Object {},
+                    "state": Object {
+                      "wheels": Array [
+                        undefined,
+                        undefined,
+                        undefined,
+                      ],
+                    },
+                    "updater": Object {
+                      "enqueueForceUpdate": [Function],
+                      "enqueueReplaceState": [Function],
+                      "enqueueSetState": [Function],
+                      "isMounted": [Function],
+                    },
+                  },
+                  "tag": 1,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "_debugSource": Object {
+                  "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                  "lineNumber": 32,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 12,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                    "lineNumber": 39,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 13,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "Wheel",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "Wheel",
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "Wheel",
+                    },
+                    "tag": 6,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "elementType": "h2",
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Wheel",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Wheel",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": Object {
+                    "children": Array [
+                      Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "Wheel",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": "Wheel",
+                    },
+                    "rootContainerInstance": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Slot Machine",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Slot Machine",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h1",
+                        },
+                        [Circular],
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                      ],
+                      "createNodeMock": [Function],
+                      "tag": "CONTAINER",
+                    },
+                    "tag": "INSTANCE",
+                    "type": "h2",
+                  },
+                  "tag": 5,
+                  "type": "h2",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 1,
+                "elementType": [Function],
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": "0",
+                "lastEffect": null,
+                "memoizedProps": Object {},
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {},
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 10,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": FiberNode {
+                    "_debugID": 3,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": Object {
+                      "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.spec.js",
+                      "lineNumber": 7,
+                    },
+                    "alternate": null,
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 1,
+                    "elementType": [Function],
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "wheelsCount": 3,
+                    },
+                    "memoizedState": Object {
+                      "wheels": Array [
+                        undefined,
+                        undefined,
+                        undefined,
+                      ],
+                    },
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "wheelsCount": 3,
+                    },
+                    "ref": null,
+                    "return": FiberNode {
+                      "_debugID": 1,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "alternate": FiberNode {
+                        "_debugID": 1,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "alternate": [Circular],
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "elementType": null,
+                        "expirationTime": 1073741823,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": null,
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": null,
+                        "sibling": null,
+                        "stateNode": Object {
+                          "containerInfo": Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "Slot Machine",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "Slot Machine",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "h1",
+                              },
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "Wheel",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "Wheel",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "h2",
+                              },
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "Wheel",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "Wheel",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "h2",
+                              },
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "Wheel",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "Wheel",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "h2",
+                              },
+                            ],
+                            "createNodeMock": [Function],
+                            "tag": "CONTAINER",
+                          },
+                          "context": Object {},
+                          "current": [Circular],
+                          "didError": false,
+                          "earliestPendingTime": 0,
+                          "earliestSuspendedTime": 0,
+                          "expirationTime": 0,
+                          "finishedWork": null,
+                          "firstBatch": null,
+                          "hydrate": false,
+                          "latestPendingTime": 0,
+                          "latestPingedTime": 0,
+                          "latestSuspendedTime": 0,
+                          "nextExpirationTimeToWorkOn": 0,
+                          "nextScheduledRoot": null,
+                          "pendingChildren": null,
+                          "pendingCommitExpirationTime": 0,
+                          "pendingContext": null,
+                          "pingCache": null,
+                          "timeoutHandle": -1,
+                        },
+                        "tag": 3,
+                        "type": null,
+                        "updateQueue": Object {
+                          "baseState": null,
+                          "firstCapturedEffect": null,
+                          "firstCapturedUpdate": null,
+                          "firstEffect": null,
+                          "firstUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1073741823,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <SlotMachine
+                                wheelsCount={3}
+                              />,
+                            },
+                            "tag": 0,
+                          },
+                          "lastCapturedEffect": null,
+                          "lastCapturedUpdate": null,
+                          "lastEffect": null,
+                          "lastUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1073741823,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <SlotMachine
+                                wheelsCount={3}
+                              />,
+                            },
+                            "tag": 0,
+                          },
+                        },
+                      },
+                      "child": [Circular],
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "elementType": null,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": [Circular],
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": [Circular],
+                      "memoizedProps": null,
+                      "memoizedState": Object {
+                        "element": <SlotMachine
+                          wheelsCount={3}
+                        />,
+                      },
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": null,
+                      "sibling": null,
+                      "stateNode": Object {
+                        "containerInfo": Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Slot Machine",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Slot Machine",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h1",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Wheel",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Wheel",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h2",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Wheel",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Wheel",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h2",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Wheel",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Wheel",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h2",
+                            },
+                          ],
+                          "createNodeMock": [Function],
+                          "tag": "CONTAINER",
+                        },
+                        "context": Object {},
+                        "current": [Circular],
+                        "didError": false,
+                        "earliestPendingTime": 0,
+                        "earliestSuspendedTime": 0,
+                        "expirationTime": 0,
+                        "finishedWork": null,
+                        "firstBatch": null,
+                        "hydrate": false,
+                        "latestPendingTime": 0,
+                        "latestPingedTime": 0,
+                        "latestSuspendedTime": 0,
+                        "nextExpirationTimeToWorkOn": 0,
+                        "nextScheduledRoot": null,
+                        "pendingChildren": null,
+                        "pendingCommitExpirationTime": 0,
+                        "pendingContext": null,
+                        "pingCache": null,
+                        "timeoutHandle": -1,
+                      },
+                      "tag": 3,
+                      "type": null,
+                      "updateQueue": Object {
+                        "baseState": Object {
+                          "element": <SlotMachine
+                            wheelsCount={3}
+                          />,
+                        },
+                        "firstCapturedEffect": null,
+                        "firstCapturedUpdate": null,
+                        "firstEffect": null,
+                        "firstUpdate": null,
+                        "lastCapturedEffect": null,
+                        "lastCapturedUpdate": null,
+                        "lastEffect": null,
+                        "lastUpdate": null,
+                      },
+                    },
+                    "sibling": null,
+                    "stateNode": SlotMachine {
+                      "_reactInternalFiber": [Circular],
+                      "_reactInternalInstance": Object {},
+                      "context": Object {},
+                      "props": Object {
+                        "wheelsCount": 3,
+                      },
+                      "refs": Object {},
+                      "state": Object {
+                        "wheels": Array [
+                          undefined,
+                          undefined,
+                          undefined,
+                        ],
+                      },
+                      "updater": Object {
+                        "enqueueForceUpdate": [Function],
+                        "enqueueReplaceState": [Function],
+                        "enqueueSetState": [Function],
+                        "isMounted": [Function],
+                      },
+                    },
+                    "tag": 1,
+                    "type": [Function],
+                    "updateQueue": null,
+                  },
+                  "_debugSource": Object {
+                    "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                    "lineNumber": 32,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 14,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                      "lineNumber": 39,
+                    },
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 15,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "elementType": null,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "Wheel",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "Wheel",
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "Wheel",
+                      },
+                      "tag": 6,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "elementType": "h2",
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Wheel",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Wheel",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "Wheel",
+                      },
+                      "rootContainerInstance": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Slot Machine",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Slot Machine",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h1",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                          [Circular],
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                        ],
+                        "createNodeMock": [Function],
+                        "tag": "CONTAINER",
+                      },
+                      "tag": "INSTANCE",
+                      "type": "h2",
+                    },
+                    "tag": 5,
+                    "type": "h2",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 1,
+                  "elementType": [Function],
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": "1",
+                  "lastEffect": null,
+                  "memoizedProps": Object {},
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {},
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 11,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": FiberNode {
+                      "_debugID": 3,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": Object {
+                        "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.spec.js",
+                        "lineNumber": 7,
+                      },
+                      "alternate": null,
+                      "child": [Circular],
+                      "childExpirationTime": 0,
+                      "effectTag": 1,
+                      "elementType": [Function],
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "wheelsCount": 3,
+                      },
+                      "memoizedState": Object {
+                        "wheels": Array [
+                          undefined,
+                          undefined,
+                          undefined,
+                        ],
+                      },
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "wheelsCount": 3,
+                      },
+                      "ref": null,
+                      "return": FiberNode {
+                        "_debugID": 1,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "alternate": FiberNode {
+                          "_debugID": 1,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "alternate": [Circular],
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "elementType": null,
+                          "expirationTime": 1073741823,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": null,
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": null,
+                          "ref": null,
+                          "return": null,
+                          "sibling": null,
+                          "stateNode": Object {
+                            "containerInfo": Object {
+                              "children": Array [
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "Slot Machine",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "Slot Machine",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "h1",
+                                },
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "Wheel",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "Wheel",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "h2",
+                                },
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "Wheel",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "Wheel",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "h2",
+                                },
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "Wheel",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "Wheel",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "h2",
+                                },
+                              ],
+                              "createNodeMock": [Function],
+                              "tag": "CONTAINER",
+                            },
+                            "context": Object {},
+                            "current": [Circular],
+                            "didError": false,
+                            "earliestPendingTime": 0,
+                            "earliestSuspendedTime": 0,
+                            "expirationTime": 0,
+                            "finishedWork": null,
+                            "firstBatch": null,
+                            "hydrate": false,
+                            "latestPendingTime": 0,
+                            "latestPingedTime": 0,
+                            "latestSuspendedTime": 0,
+                            "nextExpirationTimeToWorkOn": 0,
+                            "nextScheduledRoot": null,
+                            "pendingChildren": null,
+                            "pendingCommitExpirationTime": 0,
+                            "pendingContext": null,
+                            "pingCache": null,
+                            "timeoutHandle": -1,
+                          },
+                          "tag": 3,
+                          "type": null,
+                          "updateQueue": Object {
+                            "baseState": null,
+                            "firstCapturedEffect": null,
+                            "firstCapturedUpdate": null,
+                            "firstEffect": null,
+                            "firstUpdate": Object {
+                              "callback": null,
+                              "expirationTime": 1073741823,
+                              "next": null,
+                              "nextEffect": null,
+                              "payload": Object {
+                                "element": <SlotMachine
+                                  wheelsCount={3}
+                                />,
+                              },
+                              "tag": 0,
+                            },
+                            "lastCapturedEffect": null,
+                            "lastCapturedUpdate": null,
+                            "lastEffect": null,
+                            "lastUpdate": Object {
+                              "callback": null,
+                              "expirationTime": 1073741823,
+                              "next": null,
+                              "nextEffect": null,
+                              "payload": Object {
+                                "element": <SlotMachine
+                                  wheelsCount={3}
+                                />,
+                              },
+                              "tag": 0,
+                            },
+                          },
+                        },
+                        "child": [Circular],
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "elementType": null,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": [Circular],
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": [Circular],
+                        "memoizedProps": null,
+                        "memoizedState": Object {
+                          "element": <SlotMachine
+                            wheelsCount={3}
+                          />,
+                        },
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": null,
+                        "sibling": null,
+                        "stateNode": Object {
+                          "containerInfo": Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "Slot Machine",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "Slot Machine",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "h1",
+                              },
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "Wheel",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "Wheel",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "h2",
+                              },
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "Wheel",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "Wheel",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "h2",
+                              },
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "Wheel",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "Wheel",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "h2",
+                              },
+                            ],
+                            "createNodeMock": [Function],
+                            "tag": "CONTAINER",
+                          },
+                          "context": Object {},
+                          "current": [Circular],
+                          "didError": false,
+                          "earliestPendingTime": 0,
+                          "earliestSuspendedTime": 0,
+                          "expirationTime": 0,
+                          "finishedWork": null,
+                          "firstBatch": null,
+                          "hydrate": false,
+                          "latestPendingTime": 0,
+                          "latestPingedTime": 0,
+                          "latestSuspendedTime": 0,
+                          "nextExpirationTimeToWorkOn": 0,
+                          "nextScheduledRoot": null,
+                          "pendingChildren": null,
+                          "pendingCommitExpirationTime": 0,
+                          "pendingContext": null,
+                          "pingCache": null,
+                          "timeoutHandle": -1,
+                        },
+                        "tag": 3,
+                        "type": null,
+                        "updateQueue": Object {
+                          "baseState": Object {
+                            "element": <SlotMachine
+                              wheelsCount={3}
+                            />,
+                          },
+                          "firstCapturedEffect": null,
+                          "firstCapturedUpdate": null,
+                          "firstEffect": null,
+                          "firstUpdate": null,
+                          "lastCapturedEffect": null,
+                          "lastCapturedUpdate": null,
+                          "lastEffect": null,
+                          "lastUpdate": null,
+                        },
+                      },
+                      "sibling": null,
+                      "stateNode": SlotMachine {
+                        "_reactInternalFiber": [Circular],
+                        "_reactInternalInstance": Object {},
+                        "context": Object {},
+                        "props": Object {
+                          "wheelsCount": 3,
+                        },
+                        "refs": Object {},
+                        "state": Object {
+                          "wheels": Array [
+                            undefined,
+                            undefined,
+                            undefined,
+                          ],
+                        },
+                        "updater": Object {
+                          "enqueueForceUpdate": [Function],
+                          "enqueueReplaceState": [Function],
+                          "enqueueSetState": [Function],
+                          "isMounted": [Function],
+                        },
+                      },
+                      "tag": 1,
+                      "type": [Function],
+                      "updateQueue": null,
+                    },
+                    "_debugSource": Object {
+                      "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                      "lineNumber": 32,
+                    },
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 16,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.js",
+                        "lineNumber": 39,
+                      },
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 17,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "elementType": null,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": "Wheel",
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": "Wheel",
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": null,
+                        "stateNode": Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "Wheel",
+                        },
+                        "tag": 6,
+                        "type": null,
+                        "updateQueue": null,
+                      },
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "elementType": "h2",
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Wheel",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Wheel",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "Wheel",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "Wheel",
+                        },
+                        "rootContainerInstance": Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Slot Machine",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Slot Machine",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h1",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Wheel",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Wheel",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h2",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "Wheel",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "Wheel",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "h2",
+                            },
+                            [Circular],
+                          ],
+                          "createNodeMock": [Function],
+                          "tag": "CONTAINER",
+                        },
+                        "tag": "INSTANCE",
+                        "type": "h2",
+                      },
+                      "tag": 5,
+                      "type": "h2",
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "effectTag": 1,
+                    "elementType": [Function],
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 2,
+                    "key": "2",
+                    "lastEffect": null,
+                    "memoizedProps": Object {},
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {},
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": null,
+                    "tag": 0,
+                    "type": [Function],
+                    "updateQueue": null,
+                  },
+                  "stateNode": null,
+                  "tag": 0,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "stateNode": null,
+                "tag": 0,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 2,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Array [
+                <Wheel />,
+                <Wheel />,
+                <Wheel />,
+              ],
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Array [
+                <Wheel />,
+                <Wheel />,
+                <Wheel />,
+              ],
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 3,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": Object {
+                  "fileName": "/projects/@challenges/slot-machine/src/SlotMachine/index.spec.js",
+                  "lineNumber": 7,
+                },
+                "alternate": null,
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 1,
+                "elementType": [Function],
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "wheelsCount": 3,
+                },
+                "memoizedState": Object {
+                  "wheels": Array [
+                    undefined,
+                    undefined,
+                    undefined,
+                  ],
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "wheelsCount": 3,
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 1,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "alternate": FiberNode {
+                    "_debugID": 1,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 1073741823,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Slot Machine",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Slot Machine",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h1",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "isHidden": false,
+                                "tag": "TEXT",
+                                "text": "Wheel",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": "Wheel",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "h2",
+                          },
+                        ],
+                        "createNodeMock": [Function],
+                        "tag": "CONTAINER",
+                      },
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pingCache": null,
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 3,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <SlotMachine
+                            wheelsCount={3}
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1073741823,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <SlotMachine
+                            wheelsCount={3}
+                          />,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <SlotMachine
+                      wheelsCount={3}
+                    />,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Slot Machine",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Slot Machine",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h1",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "Wheel",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "Wheel",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "h2",
+                        },
+                      ],
+                      "createNodeMock": [Function],
+                      "tag": "CONTAINER",
+                    },
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pingCache": null,
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 3,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <SlotMachine
+                        wheelsCount={3}
+                      />,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "sibling": null,
+                "stateNode": SlotMachine {
+                  "_reactInternalFiber": [Circular],
+                  "_reactInternalInstance": Object {},
+                  "context": Object {},
+                  "props": Object {
+                    "wheelsCount": 3,
+                  },
+                  "refs": Object {},
+                  "state": Object {
+                    "wheels": Array [
+                      undefined,
+                      undefined,
+                      undefined,
+                    ],
+                  },
+                  "updater": Object {
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "tag": 1,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "sibling": null,
+              "stateNode": null,
+              "tag": 7,
+              "type": null,
+              "updateQueue": null,
+            },
             "stateNode": Object {
               "children": Array [
                 Object {
@@ -1661,6 +4787,54 @@ body{font-family:sans-serif;text-align:center;}
               "rootContainerInstance": Object {
                 "children": Array [
                   [Circular],
+                  Object {
+                    "children": Array [
+                      Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "Wheel",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": "Wheel",
+                    },
+                    "rootContainerInstance": [Circular],
+                    "tag": "INSTANCE",
+                    "type": "h2",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "Wheel",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": "Wheel",
+                    },
+                    "rootContainerInstance": [Circular],
+                    "tag": "INSTANCE",
+                    "type": "h2",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "Wheel",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": "Wheel",
+                    },
+                    "rootContainerInstance": [Circular],
+                    "tag": "INSTANCE",
+                    "type": "h2",
+                  },
                 ],
                 "createNodeMock": [Function],
                 "tag": "CONTAINER",
@@ -1789,6 +4963,57 @@ body{font-family:sans-serif;text-align:center;}
         "Slot Machine",
       ],
       "type": "h1",
+    },
+    Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {},
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Wheel",
+        },
+        "rendered": Array [
+          "Wheel",
+        ],
+        "type": "h2",
+      },
+      "type": [Function],
+    },
+    Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {},
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Wheel",
+        },
+        "rendered": Array [
+          "Wheel",
+        ],
+        "type": "h2",
+      },
+      "type": [Function],
+    },
+    Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {},
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Wheel",
+        },
+        "rendered": Array [
+          "Wheel",
+        ],
+        "type": "h2",
+      },
+      "type": [Function],
     },
   ],
   "type": [Function],
