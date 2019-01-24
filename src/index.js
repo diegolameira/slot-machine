@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import SlotMachine from './SlotMachine';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <SlotMachine />
     </div>
   );
 }
