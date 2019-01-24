@@ -1,7 +1,9 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
+import diff from 'lodash.difference';
 
-import SlotMachine, { Wheel } from './index';
+import SlotMachine from './index';
+import Wheel, { WheelItem } from './Wheel';
 
 describe('SlotMachine', () => {
   const component = TestRenderer.create(<SlotMachine />);
@@ -23,8 +25,32 @@ describe('SlotMachine', () => {
   it('should have a stop button', () => {});
 
   describe('Wheels', () => {
-    it('should have 4 symbols each (strawberry, banana, orange and a monkey)', () => {});
-    it('starts with the symbols in some random position', () => {});
+    it('should have 4 symbols each (strawberry, banana, orange and a monkey)', () => {
+      const items = ['strawberry', 'banana', 'orange', 'monkey'];
+
+      component.root.findAllByType(Wheel).forEach(w => {
+        let _items = w.findAllByType(WheelItem);
+        expect(_items.length).toBe(items.length);
+        let itemsImage = [];
+        _items.map(i => itemsImage.push(i.props.img));
+        expect(itemsImage.length).toBe(items.length);
+        expect(diff(items, itemsImage).length).toBe(0);
+      });
+    });
+    it('starts with the symbols in some random position', () => {
+      const wheelsOrder = [];
+
+      component.root.findAllByType(Wheel).forEach(w => {
+        let items = w.findAllByType(WheelItem);
+        let itemsImage = [];
+        items.map(i => itemsImage.push(i.props.img));
+        wheelsOrder.push(itemsImage.join(''));
+      });
+
+      const areEqual = wheelsOrder.every((val, i, arr) => val === arr[0]);
+
+      expect(areEqual).toBe(false);
+    });
   });
 
   describe('Start button', () => {
