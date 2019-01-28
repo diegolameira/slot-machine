@@ -42,7 +42,9 @@ describe('SlotMachine', () => {
     expect(startButton).toBeTruthy();
   });
   it('should have a stop button', () => {
-    let stopButton = component.root.find(elm => elm.props.onClick == stop);
+    let stopButton = component.root.find(
+      elm => elm.props.onClick == component.stop
+    );
     expect(stopButton).toBeTruthy();
   });
 

@@ -2,7 +2,7 @@
 
 exports[`SlotMachine should render properly 1`] = `
 <div
-  className="sc-htpNat imLdsl"
+  className="sc-htpNat iGRZuP"
 >
   <header>
     <h1>
@@ -11,7 +11,7 @@ exports[`SlotMachine should render properly 1`] = `
   </header>
   <main>
     <div
-      className="sc-bwzfXH kgSWDu"
+      className="sc-bwzfXH eJWyDC"
     >
       <img
         className="sc-bdVaJa eqvFIQ"
@@ -31,7 +31,7 @@ exports[`SlotMachine should render properly 1`] = `
       />
     </div>
     <div
-      className="sc-bwzfXH kgSWDu"
+      className="sc-bwzfXH eJWyDC"
     >
       <img
         className="sc-bdVaJa eqvFIQ"
@@ -51,7 +51,7 @@ exports[`SlotMachine should render properly 1`] = `
       />
     </div>
     <div
-      className="sc-bwzfXH kgSWDu"
+      className="sc-bwzfXH eJWyDC"
     >
       <img
         className="sc-bdVaJa eqvFIQ"
@@ -71,6 +71,14 @@ exports[`SlotMachine should render properly 1`] = `
       />
     </div>
   </main>
+  <h1>
+    Prize: 
+    0
+  </h1>
+  <h2>
+    Win Amount:
+    0
+  </h2>
   <button
     className="sc-bxivhb gxrYMO"
     onClick={[Function]}
@@ -79,7 +87,7 @@ exports[`SlotMachine should render properly 1`] = `
   </button>
   <button
     className="sc-bxivhb gxrYMO"
-    onClick={[MockFunction]}
+    onClick={[Function]}
   >
     Stop
   </button>

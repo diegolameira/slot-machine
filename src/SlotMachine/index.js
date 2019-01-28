@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled, { createGlobalStyle } from 'styled-components';
-
 import { connect } from 'react-redux';
+
 import { bindActionCreators } from 'redux';
 import { start, stop } from '../actions';
-
+import Prize from './Prize';
 import Wheel from './Wheel';
 
 const GlobalStyles = createGlobalStyle`
@@ -20,6 +20,7 @@ export class SlotMachine extends Component {
     wheels: PropTypes.arrayOf(
       PropTypes.arrayOf(PropTypes.string.isRequired).isRequired
     ).isRequired,
+    history: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)),
     start: PropTypes.func.isRequired,
     stop: PropTypes.func.isRequired,
   };
@@ -39,7 +40,7 @@ export class SlotMachine extends Component {
   }
 
   componentWillUnmount() {
-    clearTimeout(this.state.timer);
+    this.stop();
   }
 
   start = () => {
@@ -52,10 +53,16 @@ export class SlotMachine extends Component {
     });
   };
 
+  stop = () => {
+    clearTimeout(this.state.timer);
+    this.props.stop();
+  };
+
   render() {
     const {
       start,
-      props: { wheels, stop },
+      stop,
+      props: { wheels, history },
     } = this;
     return (
       <MachineWrapperStyled>
@@ -68,6 +75,7 @@ export class SlotMachine extends Component {
             return <Wheel items={items} key={key} />;
           })}
         </main>
+        <Prize history={history} />
         <Button onClick={start}>Start</Button>
         <Button onClick={stop}>Stop</Button>
       </MachineWrapperStyled>
@@ -87,17 +95,8 @@ const MachineWrapperStyled = styled.div`
   }
 
   main {
-    display: grid;
-
-    grid-template-columns: 33.3333% 33.3333% 33.3333%;
-    grid-template-rows: auto;
-    grid-template-areas:
-      'header header header'
-      'wheel wheel wheel';
-
-    h1 {
-      grid-area: header;
-    }
+    display: flex;
+    background: #000;
   }
 `;
 
@@ -109,8 +108,9 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-const mapStateToProps = ({ machineState: { wheels } }) => ({
+const mapStateToProps = ({ machineState: { wheels, history } }) => ({
   wheels,
+  history,
 });
 
 const mapDispatchToProps = dispatch =>
