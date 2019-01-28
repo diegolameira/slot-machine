@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled, { createGlobalStyle } from 'styled-components';
-import shuffle from 'lodash.shuffle';
+
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { start, stop } from '../actions';
 
 import Wheel from './Wheel';
 
@@ -12,23 +15,17 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
-export default class SlotMachine extends Component {
-  static defaultProps = {
-    wheelsCount: 3,
-    items: ['strawberry', 'banana', 'orange', 'monkey'],
-  };
+class SlotMachine extends Component {
   static propTypes = {
-    wheelsCount: PropTypes.number.isRequired,
-    items: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+    wheels: PropTypes.arrayOf(
+      PropTypes.arrayOf(PropTypes.string.isRequired).isRequired
+    ).isRequired,
+    start: PropTypes.any,
+    stop: PropTypes.any,
   };
-  state = {};
-
-  static getDerivedStateFromProps = ({ wheelsCount: length, items }) => ({
-    wheels: Array.from({ length }, () => shuffle(items)),
-  });
 
   render() {
-    const { wheels } = this.state;
+    const { wheels, start, stop } = this.props;
     return (
       <MachineWrapperStyled>
         <GlobalStyles />
@@ -36,10 +33,12 @@ export default class SlotMachine extends Component {
           <h1>Slot Machine</h1>
         </header>
         <main>
-          {wheels.map((items, key) => (
-            <Wheel items={items} key={key} />
-          ))}
+          {wheels.map((items, key) => {
+            return <Wheel items={items} key={key} />;
+          })}
         </main>
+        <Button onClick={() => start()}>Start</Button>
+        <Button onClick={() => stop()}>Stop</Button>
       </MachineWrapperStyled>
     );
   }
@@ -70,3 +69,19 @@ const MachineWrapperStyled = styled.div`
     }
   }
 `;
+
+const Button = styled.button`
+  background: red;
+`;
+
+const mapStateToProps = ({ machineState: { wheels } }) => ({
+  wheels,
+});
+
+const mapDispatchToProps = dispatch =>
+  bindActionCreators({ start, stop }, dispatch);
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(SlotMachine);
