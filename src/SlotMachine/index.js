@@ -15,7 +15,7 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
-class SlotMachine extends Component {
+export class SlotMachine extends Component {
   static propTypes = {
     wheels: PropTypes.arrayOf(
       PropTypes.arrayOf(PropTypes.string.isRequired).isRequired

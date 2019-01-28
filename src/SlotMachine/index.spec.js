@@ -1,22 +1,32 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import diff from 'lodash.difference';
+import shuffle from 'lodash.shuffle';
 
-import SlotMachine from './index';
+import { SlotMachine } from './index';
 import Wheel, { WheelItem } from './Wheel';
 
+const items = ['strawberry', 'orange', 'banana', 'monkey'];
+const buildWheels = (length = 3) =>
+  Array.from({ length }, () => shuffle(items));
+
 describe('SlotMachine', () => {
-  const component = TestRenderer.create(<SlotMachine />);
-  const tree = component.toTree();
+  const start = () => () => false;
+  const stop = () => () => false;
+  const wheels = buildWheels(3);
+
+  const component = TestRenderer.create(
+    <SlotMachine {...{ wheels, stop, start }} />
+  );
 
   it('should render properly', () => {
-    expect(tree).toMatchSnapshot();
+    expect(component.toJSON()).toMatchSnapshot();
   });
 
   it('should have 3 (or given) wheels', () => {
     let wheels = component.root.findAllByType(Wheel);
     expect(wheels.length).toBe(3);
-    component.update(<SlotMachine wheelsCount={2} />);
+    component.update(<SlotMachine wheels={buildWheels(2)} />);
     wheels = component.root.findAllByType(Wheel);
     expect(wheels.length).toBe(2);
   });
