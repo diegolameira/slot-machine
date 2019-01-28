@@ -3,26 +3,18 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 class Wheel extends PureComponent {
-  static defaultProps = {
-    items: ['strawberry', 'banana', 'orange', 'monkey'],
-  };
   static propTypes = {
     className: PropTypes.string,
     items: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
   };
-  state = {};
 
-  static getDerivedStateFromProps = ({ items }) => ({
-    wheelItems: items,
-  });
   render() {
     const {
-      props: { className },
-      state: { wheelItems },
+      props: { className, items },
     } = this;
     return (
       <div className={className}>
-        {wheelItems.map(item => (
+        {items.map(item => (
           <WheelItem key={item} img={item} />
         ))}
       </div>
