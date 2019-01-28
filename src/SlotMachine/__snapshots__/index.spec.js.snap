@@ -15,7 +15,11 @@ exports[`SlotMachine should render properly 1`] = `
     >
       <img
         className="sc-bdVaJa eqvFIQ"
-        src="/imgs/monkey.jpg"
+        src="/imgs/strawberry.jpg"
+      />
+      <img
+        className="sc-bdVaJa eqvFIQ"
+        src="/imgs/orange.jpg"
       />
       <img
         className="sc-bdVaJa eqvFIQ"
@@ -23,31 +27,7 @@ exports[`SlotMachine should render properly 1`] = `
       />
       <img
         className="sc-bdVaJa eqvFIQ"
-        src="/imgs/strawberry.jpg"
-      />
-      <img
-        className="sc-bdVaJa eqvFIQ"
-        src="/imgs/orange.jpg"
-      />
-    </div>
-    <div
-      className="sc-bwzfXH kgSWDu"
-    >
-      <img
-        className="sc-bdVaJa eqvFIQ"
-        src="/imgs/orange.jpg"
-      />
-      <img
-        className="sc-bdVaJa eqvFIQ"
         src="/imgs/monkey.jpg"
-      />
-      <img
-        className="sc-bdVaJa eqvFIQ"
-        src="/imgs/banana.jpg"
-      />
-      <img
-        className="sc-bdVaJa eqvFIQ"
-        src="/imgs/strawberry.jpg"
       />
     </div>
     <div
@@ -63,23 +43,43 @@ exports[`SlotMachine should render properly 1`] = `
       />
       <img
         className="sc-bdVaJa eqvFIQ"
+        src="/imgs/banana.jpg"
+      />
+      <img
+        className="sc-bdVaJa eqvFIQ"
         src="/imgs/monkey.jpg"
+      />
+    </div>
+    <div
+      className="sc-bwzfXH kgSWDu"
+    >
+      <img
+        className="sc-bdVaJa eqvFIQ"
+        src="/imgs/strawberry.jpg"
+      />
+      <img
+        className="sc-bdVaJa eqvFIQ"
+        src="/imgs/orange.jpg"
       />
       <img
         className="sc-bdVaJa eqvFIQ"
         src="/imgs/banana.jpg"
+      />
+      <img
+        className="sc-bdVaJa eqvFIQ"
+        src="/imgs/monkey.jpg"
       />
     </div>
   </main>
   <button
-    className="sc-bxivhb kHlPrt"
+    className="sc-bxivhb gxrYMO"
     onClick={[Function]}
   >
     Start
   </button>
   <button
-    className="sc-bxivhb kHlPrt"
-    onClick={[Function]}
+    className="sc-bxivhb gxrYMO"
+    onClick={[MockFunction]}
   >
     Stop
   </button>

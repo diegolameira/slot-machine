@@ -20,12 +20,43 @@ export class SlotMachine extends Component {
     wheels: PropTypes.arrayOf(
       PropTypes.arrayOf(PropTypes.string.isRequired).isRequired
     ).isRequired,
-    start: PropTypes.any,
-    stop: PropTypes.any,
+    start: PropTypes.func.isRequired,
+    stop: PropTypes.func.isRequired,
+  };
+
+  state = {
+    timer: 0,
+    startTimer: 5 * 1000,
+    stopTimer: 10 * 1000,
+  };
+
+  componentDidMount() {
+    this.setState(({ startTimer }) => {
+      return {
+        timer: setTimeout(() => this.start(), startTimer),
+      };
+    });
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.state.timer);
+  }
+
+  start = () => {
+    this.setState(({ timer, stopTimer }) => {
+      clearTimeout(timer);
+      this.props.start();
+      return {
+        timer: setTimeout(() => this.props.stop(), stopTimer),
+      };
+    });
   };
 
   render() {
-    const { wheels, start, stop } = this.props;
+    const {
+      start,
+      props: { wheels, stop },
+    } = this;
     return (
       <MachineWrapperStyled>
         <GlobalStyles />
@@ -37,8 +68,8 @@ export class SlotMachine extends Component {
             return <Wheel items={items} key={key} />;
           })}
         </main>
-        <Button onClick={() => start()}>Start</Button>
-        <Button onClick={() => stop()}>Stop</Button>
+        <Button onClick={start}>Start</Button>
+        <Button onClick={stop}>Stop</Button>
       </MachineWrapperStyled>
     );
   }
@@ -72,6 +103,10 @@ const MachineWrapperStyled = styled.div`
 
 const Button = styled.button`
   background: red;
+  border: 0;
+  padding: 10px;
+  margin: 2px;
+  cursor: pointer;
 `;
 
 const mapStateToProps = ({ machineState: { wheels } }) => ({

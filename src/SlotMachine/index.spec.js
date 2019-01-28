@@ -7,13 +7,15 @@ import { SlotMachine } from './index';
 import Wheel, { WheelItem } from './Wheel';
 
 const items = ['strawberry', 'orange', 'banana', 'monkey'];
-const buildWheels = (length = 3) =>
-  Array.from({ length }, () => shuffle(items));
+const buildWheels = (length = 3, random) =>
+  Array.from({ length }, () => (random ? shuffle(items) : items));
 
 describe('SlotMachine', () => {
-  const start = () => () => false;
-  const stop = () => () => false;
-  const wheels = buildWheels(3);
+  jest.useFakeTimers();
+
+  const start = jest.fn();
+  const stop = jest.fn();
+  const wheels = buildWheels(3, false);
 
   const component = TestRenderer.create(
     <SlotMachine {...{ wheels, stop, start }} />
@@ -26,17 +28,32 @@ describe('SlotMachine', () => {
   it('should have 3 (or given) wheels', () => {
     let wheels = component.root.findAllByType(Wheel);
     expect(wheels.length).toBe(3);
-    component.update(<SlotMachine wheels={buildWheels(2)} />);
+    component.update(
+      <SlotMachine wheels={buildWheels(2, true)} {...{ stop, start }} />
+    );
     wheels = component.root.findAllByType(Wheel);
     expect(wheels.length).toBe(2);
   });
 
-  it('should have a start button', () => {});
-  it('should have a stop button', () => {});
+  it('should have a start button', () => {
+    let startButton = component.root.find(
+      elm => elm.props.onClick == component.start
+    );
+    expect(startButton).toBeTruthy();
+  });
+  it('should have a stop button', () => {
+    let stopButton = component.root.find(elm => elm.props.onClick == stop);
+    expect(stopButton).toBeTruthy();
+  });
 
   describe('Wheels', () => {
     it('should have 4 symbols each (strawberry, banana, orange and a monkey)', () => {
       const items = ['strawberry', 'banana', 'orange', 'monkey'];
+
+      // reducing the chance of repeated items
+      component.update(
+        <SlotMachine wheels={buildWheels(20, true)} {...{ stop, start }} />
+      );
 
       component.root.findAllByType(Wheel).forEach(w => {
         let _items = w.findAllByType(WheelItem);
@@ -64,13 +81,23 @@ describe('SlotMachine', () => {
   });
 
   describe('Start button', () => {
-    it('should spin the wheels on click (a symbol every, 50ms)', () => {});
-    it('should automatically start after 5 seconds', () => {});
+    it('should spin the wheels on click (a symbol every, 50ms)', () => {
+      // TODO: move as action test
+    });
+    it('should automatically start after 5 seconds', () => {
+      expect(start).not.toBeCalled();
+      jest.runTimersToTime(5 * 1000);
+      expect(start).toBeCalled();
+    });
   });
 
   describe('Stop button', () => {
     it('should stop wheels from spinning on click', () => {});
-    it('should automatically stop wheels from spinning after 10 seconds (after starting)', () => {});
+    it('should automatically stop wheels from spinning after 10 seconds (after starting)', () => {
+      expect(stop).not.toBeCalled();
+      jest.runTimersToTime(10 * 1000);
+      expect(stop).toBeCalled();
+    });
   });
 
   describe('Prizes', () => {
