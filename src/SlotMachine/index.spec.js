@@ -15,21 +15,23 @@ describe('SlotMachine', () => {
 
   const start = jest.fn();
   const stop = jest.fn();
+  const tick = jest.fn();
   const wheels = buildWheels(3, false);
 
   const component = TestRenderer.create(
-    <SlotMachine {...{ wheels, stop, start }} />
+    <SlotMachine {...{ wheels, stop, start, tick }} />
   );
 
   it('should render properly', () => {
     expect(component.toJSON()).toMatchSnapshot();
+    expect(tick).toBeCalled();
   });
 
   it('should have 3 (or given) wheels', () => {
     let wheels = component.root.findAllByType(Wheel);
     expect(wheels.length).toBe(3);
     component.update(
-      <SlotMachine wheels={buildWheels(2, true)} {...{ stop, start }} />
+      <SlotMachine wheels={buildWheels(2, true)} {...{ stop, start, tick }} />
     );
     wheels = component.root.findAllByType(Wheel);
     expect(wheels.length).toBe(2);
@@ -54,7 +56,10 @@ describe('SlotMachine', () => {
 
       // reducing the chance of repeated items
       component.update(
-        <SlotMachine wheels={buildWheels(20, true)} {...{ stop, start }} />
+        <SlotMachine
+          wheels={buildWheels(20, true)}
+          {...{ stop, start, tick }}
+        />
       );
 
       component.root.findAllByType(Wheel).forEach(w => {
@@ -83,9 +88,6 @@ describe('SlotMachine', () => {
   });
 
   describe('Start button', () => {
-    it('should spin the wheels on click (a symbol every, 50ms)', () => {
-      // TODO: move as action test
-    });
     it('should automatically start after 5 seconds', () => {
       expect(start).not.toBeCalled();
       jest.runTimersToTime(5 * 1000);
@@ -94,17 +96,10 @@ describe('SlotMachine', () => {
   });
 
   describe('Stop button', () => {
-    it('should stop wheels from spinning on click', () => {});
     it('should automatically stop wheels from spinning after 10 seconds (after starting)', () => {
       expect(stop).not.toBeCalled();
       jest.runTimersToTime(10 * 1000);
       expect(stop).toBeCalled();
     });
-  });
-
-  describe('Prizes', () => {
-    it('10 dollars when two identical non-consecutive symbols', () => {});
-    it('20 dollars when two consecutive symbols', () => {});
-    it('100 dollars when same symbol in all the wheels', () => {});
   });
 });

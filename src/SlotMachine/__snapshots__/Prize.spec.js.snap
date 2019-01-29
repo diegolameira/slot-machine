@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prize 10 dollars when two identical non-consecutive symbols 1`] = `
+Array [
+  <h1>
+    Prize: 
+    0
+  </h1>,
+  <h2>
+    Win Amount:
+    0
+  </h2>,
+]
+`;
+
+exports[`Prize 20 dollars when two consecutive symbols 1`] = `
+Array [
+  <h1>
+    Prize: 
+    0
+  </h1>,
+  <h2>
+    Win Amount:
+    0
+  </h2>,
+]
+`;
+
+exports[`Prize 100 dollars when same symbol in all the wheels 1`] = `
+Array [
+  <h1>
+    Prize: 
+    0
+  </h1>,
+  <h2>
+    Win Amount:
+    0
+  </h2>,
+]
+`;

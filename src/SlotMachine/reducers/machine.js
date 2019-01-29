@@ -9,12 +9,8 @@ const initialState = {
   wheelsCount: 3,
   items: ['strawberry', 'banana', 'orange', 'monkey'],
   history: [],
+  wheels: [],
 };
-
-initialState.wheels = shuffleWheels(
-  initialState.wheelsCount,
-  initialState.items
-);
 
 export const machineReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -24,7 +20,7 @@ export const machineReducer = (state = initialState, action) => {
         isPlaying: true,
       };
     case STOP:
-      if (!state.isPlaying) return state;
+      if (!state.isPlaying) return { ...state, isPlaying: false };
       const visibleItems = state.wheels.map(i => i.slice(-1)[0]);
       return {
         ...state,

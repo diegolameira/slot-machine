@@ -4,7 +4,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 import { connect } from 'react-redux';
 
 import { bindActionCreators } from 'redux';
-import { start, stop } from '../actions';
+import { start, stop, tick } from './actions';
 import Prize from './Prize';
 import Wheel from './Wheel';
 
@@ -23,6 +23,7 @@ export class SlotMachine extends Component {
     history: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)),
     start: PropTypes.func.isRequired,
     stop: PropTypes.func.isRequired,
+    tick: PropTypes.func.isRequired,
   };
 
   state = {
@@ -32,6 +33,7 @@ export class SlotMachine extends Component {
   };
 
   componentDidMount() {
+    this.props.tick();
     this.setState(({ startTimer }) => {
       return {
         timer: setTimeout(() => this.start(), startTimer),
@@ -114,7 +116,7 @@ const mapStateToProps = ({ machineState: { wheels, history } }) => ({
 });
 
 const mapDispatchToProps = dispatch =>
-  bindActionCreators({ start, stop }, dispatch);
+  bindActionCreators({ start, stop, tick }, dispatch);
 
 export default connect(
   mapStateToProps,

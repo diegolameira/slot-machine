@@ -1,6 +1,6 @@
 import React from 'react';
 
-const calcPrize = (items = []) => {
+export const calcPrize = (items = []) => {
   let equals = 0;
   let consecutives = false;
   items.reduce((prev, current, index, array) => {

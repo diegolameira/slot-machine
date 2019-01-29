@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wheel should render properly 1`] = `
+<div
+  className="sc-bwzfXH eJWyDC"
+/>
+`;
+
+exports[`Wheel should render properly 2`] = `
+<div
+  className="sc-bwzfXH eJWyDC"
+>
+  <img
+    className="sc-bdVaJa eqvFIQ"
+    src="/imgs/1.jpg"
+  />
+  <img
+    className="sc-bdVaJa eqvFIQ"
+    src="/imgs/2.jpg"
+  />
+</div>
+`;

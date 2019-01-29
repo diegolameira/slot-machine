@@ -11,7 +11,7 @@ export const start = () => dispatch => {
 
 export const stop = () => dipatch => {
   clearInterval(timer);
-  dipatch({ type: STOP });
+  return dipatch({ type: STOP });
 };
 
 export const tick = () => ({
